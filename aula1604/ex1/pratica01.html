@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multa de Trânsito</title>
+    <style>
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="pratica01.php" method="get">
+            <label for="velocidade">Informe a velocidade do veículo</label>
+        <br>
+        <input type="number" name="velocidade" placeholder="km/h" id="velocidade" step="0.01" min="0" max="250" required />
+        <br>
+        <p>
+            &#128712 Informações ao condutor: Será cobrado R$5,00 por km acima da velocidade permitida: 80Km/h.; 
+        </p>
+       
+        <button type="submit"><span>Verificar</button></span>
+       
+
+        </form>
+        <br/>
+       
+        
+
+
+    </div>
+    
+</body>
+</html>
